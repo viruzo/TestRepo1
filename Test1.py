@@ -1,5 +1,8 @@
 def main():
-    pass
+    try:
+        pass
+    except Exception as E:
+        print(E)
 
 
 if __name__ == "__main__":
