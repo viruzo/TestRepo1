@@ -5,6 +5,7 @@ def say_hello(name):
 def main():
     try:
         say_hello("world")
+        say_hello("user")
     except Exception as E:
         print(E)
 
