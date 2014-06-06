@@ -6,6 +6,9 @@ def print_reverse_list(alist : list):
 def say_hello(name):
     print("Hello, %s!" % name)
 
+def copy_list(alist):
+    return alist[:]
+
 
 def main():
     try:
