@@ -3,8 +3,10 @@ def print_reverse_list(alist : list):
     blist.reverse()
     print(blist)
 
+
 def say_hello(name):
     print("Hello, %s!" % name)
+
 
 def copy_list(alist):
     return alist[:]
