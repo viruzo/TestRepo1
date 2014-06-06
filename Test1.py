@@ -1,6 +1,10 @@
+def say_hello(name):
+    print("Hello, %s!" % name)
+
+
 def main():
     try:
-        print("Hello, world!")
+        say_hello("world")
     except Exception as E:
         print(E)
 
