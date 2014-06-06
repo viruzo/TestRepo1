@@ -1,6 +1,6 @@
 def main():
     try:
-        pass
+        print("Hello, world!")
     except Exception as E:
         print(E)
 
